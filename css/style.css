@@ -32,7 +32,7 @@ body {
   background: url("../images/bg-intro-mobile.png") no-repeat, var(--red);
   background-size: contain;
   background-position: center;
-  padding: 93px 23px 1px 23px;
+  padding: 93px 23px 93px 23px;
 }
 .big-box {
   text-align: center;
