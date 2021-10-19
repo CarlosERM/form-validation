@@ -105,9 +105,9 @@ input {
   display: block;
   color: var(--red);
   position:absolute;
-  top: 57px;
-  left: 301px;
   padding: 0;
+  top:75%;
+  left:46%;
 }
 #submit {
   background-color: var(--green);
@@ -190,5 +190,10 @@ small {
   }
   input {
     margin-bottom: 20px;
+  }
+
+  .errorMessage.active {
+    top: 57px;
+    left: 301px;
   }
 }
