@@ -84,6 +84,9 @@ input {
   display: block;
   position: relative;
 }
+.test {
+  position:relative;
+}
 .error::before {
   content: "";
   display: block;
@@ -94,11 +97,17 @@ input {
   top: 18px;
   right: 22px;
 }
+
 .errorMessage {
   display: none;
 }
 .errorMessage.active {
   display: block;
+  color: var(--red);
+  position:absolute;
+  top: 57px;
+  left: 301px;
+  padding: 0;
 }
 #submit {
   background-color: var(--green);
@@ -157,7 +166,7 @@ small {
   .big-box {
     display: flex;
     flex-direction: row;
-    height: 566px;
+    /* min-height: 550px; */
     max-width: 1110px;
     gap: 30px;
     align-items: center;
